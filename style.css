@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+/* === Responsive === */
+@media only screen and (max-width: 768px) {
+	.list-grid {
+		position: relative !important;
+		flex-direction: column !important;
+		justify-content: center;
+	}
+
+	.list-grid h2 {
+		margin: 0 !important;
+		margin-bottom: 1.5rem !important
+	}
+
+	.list-grid ol {
+		flex-direction: column;
+	}
+}
+/* ===*/
+
+body {
+	font-family: "Nunito", sans-serif;
+	background: #81d4fa;
+	color: #fff;
+}
+
+/* === Typography === */
+h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+	margin: 0;
+	margin-bottom: 1rem;
+}
+/* ===*/
+
+/* === Form === */
+.btn {
+	background: #fff;
+    color: #81d4fa;
+    font-weight: bold;
+    border: 0;
+    padding: 1.5rem 3rem;
+    border-radius: 100px;
+    box-shadow: 0px 3px 0px rgba(0,0,0,0.1);
+    transition: 0.25s;
+}
+
+.btn:hover {
+	background: #fff;
+    color: #81d4fa;
+	box-shadow: unset;
+	transform: translateY(3px);
+}
+/* ===*/
+
+.header-bg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.header-bg h1 {
+	font-size: 45px;
+}
+
+.header-bg p {
+	display: inline-block;
+	font-size: 18px !important;
+	width: 75%;
+}
+
+.list-grid {
+	position: fixed;
+	top: 0;
+	display: flex;
+	align-items: center;
+	/*background: #f9f9f9;*/
+	width: 100%;
+	padding: 3rem 3rem;
+}
+
+.list-grid h2 {
+	margin-bottom: 0;
+	margin-right: auto;
+}
+
+.list-grid ol {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+.list-grid ol li a {
+	/*background: #fff;*/
+    /*color: #81d4fa;*/
+    color: rgb(0,0,0,0.2);
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: 0;
+    margin: 0 1.5rem;
+    border-radius: 100px;
+    /*box-shadow: 0px 3px 0px rgba(0,0,0,0.1);*/
+    transition: 0.25s;
+}
+
+.list-grid ol li a:hover {
+	color: #fff;
+	text-decoration: none;
+}
