@@ -31,4 +31,4 @@ Make sure [git](https://git-scm.com/book/id/v2/Getting-Started-Installing-Git) i
 
 ## Copyright
 
-Copyright (c) 2018 realRaghavGupta. See [LICENSE](https://github.com/despo/kobol/blob/master/LICENSE) for details.
+Copyright (c) 2018 realRaghavGupta. See [LICENSE](https://github.com/realRaghavGupta/Hacktoberfest-Sign-In-2018/blob/master/LICENSE) for details.
